@@ -22,7 +22,6 @@ def FileWrite(text):
         print('Ошибка Записи в файл :', error)
 
 #получаем данные из ITSM
-
 def main():
     try:
         my_queue_info = itsm.get_queues_full() #получаем инфо об очередях
