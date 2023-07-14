@@ -46,31 +46,31 @@
 ## Пример полученного JSON
 
     {
-    '10000000001': {
-        'queue': '10000000001',
-        'title': 'Подольск-4',
-        'pull_ext': '1210-1219',
-        'status': 'registered',
-        'number_in_queue': [{
-                'UUID': 'objectBase$19881036',
-                'title': '4952217551',
-                'metaClass': 'objectBase$Citynumber',
-                'status': 'registered'
+    "10000000001": {
+        "queue": "10000000001",
+        "title": "Подольск-4",
+        "pull_ext": "1210-1219",
+        "status": "registered",
+        "number_in_queue": [{
+                "UUID": "objectBase$19881036",
+                "title": "4952217551",
+                "metaClass": "objectBase$Citynumber",
+                "status": "registered"
             }, {
-                'UUID': 'objectBase$25331304',
-                'title': '4950238779',
-                'metaClass': 'objectBase$Citynumber',
-                'status': 'closed'
+                "UUID": "objectBase$25331304",
+                "title": "4950238779",
+                "metaClass": "objectBase$Citynumber",
+                "status": "closed"
             }, {
-                'UUID': 'objectBase$30578356',
-                'title': '4950212360',
-                'metaClass': 'objectBase$Citynumber',
-                'status': 'closed'
+                "UUID": "objectBase$30578356",
+                "title": "4950212360",
+                "metaClass": "objectBase$Citynumber",
+                "status": "closed"
             }, {
-                'UUID': 'objectBase$30578358',
-                'title': '4950857554',
-                'metaClass': 'objectBase$Citynumber',
-                'status': 'closed'
+                "UUID": "objectBase$30578358",
+                "title": "4950857554",
+                "metaClass": "objectBase$Citynumber",
+                "status": "closed"
             }
         ]
     }
@@ -83,7 +83,7 @@ closed - Архивный
 
 ## Пример данных в файле .env
     
-    ACCESS_KEY = '8a5d0671-ae00-4870-8751-269ed963932b'
-    SERVER_ADDRESS = 'https://test.itsm365.com/sd/'
+    ACCESS_KEY = "8a5d0671-ae00-4870-8751-269ed963932b"
+    SERVER_ADDRESS = "https://test.itsm365.com/sd/"
     QUEUE_MIN = 10000000000
     QUEUE_MAX = 10000000100
