@@ -31,7 +31,8 @@ def main():
                 num_status = itsm.get_number_info(item['title']) 
                 item["status"] = num_status
         #print (my_queue_info) #debug
-        with open("text.json", "w") as outfile:
+        file = r"\\core-applic-01\queue$\text.json" 
+        with open(file, "w") as outfile:
             json.dump(my_queue_info, outfile)
 
         #FileWrite(str(my_queue_info)) #записываем в файл
